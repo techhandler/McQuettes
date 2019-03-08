@@ -10,4 +10,5 @@ button {
     color: #fff;
     border-radius: .5em;
     transition: all 0.1s linear;
+    width: 40%;
 }

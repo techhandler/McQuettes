@@ -13,6 +13,10 @@ class App extends Component {
     });
   }
 
+  handleSubmit(){
+    console.log("Submitted");
+  }
+
   render() {
     console.log("sss", this.state.question);
     return (
@@ -23,20 +27,21 @@ class App extends Component {
           selectAns={e => this.selectAns(e)}
         />
         <div style={{ width: "30%", margin: "0 auto" }}>
-          {this.state.selectedQues > 0 &&
+          {(this.state.selectedQues > 0 &&
             <button
               onClick={() => this.setState({ selectedQues: this.state.selectedQues - 1 })}
               style={{ float: "left" }}
             >
               Back
-            </button>}
-          {this.state.selectedQues < this.state.question.length - 1 &&
+            </button>) ||
+          <button style={{ background: "grey" }}>Back</button>}
+          {(this.state.selectedQues < this.state.question.length - 1 &&
             <button
               onClick={() => this.setState({ selectedQues: this.state.selectedQues + 1 })}
               style={{ float: "right" }}
             >
               Next
-            </button>}
+            </button>)||<button style={{ float: "right", background: "green" }} onClick={()=>this.handleSubmit()}>Submit</button>}
         </div>
       </div>
     );
