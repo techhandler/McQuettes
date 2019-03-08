@@ -5,10 +5,14 @@
 button {
     background: blue;
     border: none;
-    padding: .8em 1.5em;
     margin: .5em;
     color: #fff;
     border-radius: .5em;
-    transition: all 0.1s linear;
     width: 40%;
+    padding: .8em;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 0 5px 0 #000;
 }
