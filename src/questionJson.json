@@ -1,42 +1,22 @@
 [
   {
     "question": "Capital Of India",
-    "options": [
-      "Mumbai",
-      "Kolkata",
-      "Delhi",
-      "Chennai"
-    ],
+    "options": ["Mumbai", "Kolkata", "Delhi", "Chennai"],
     "correctAnswer": 2
   },
   {
     "question": "Capital Of Bhutan",
-    "options": [
-      "Dhaka",
-      "Kathmandu",
-      "Punakha",
-      "Thimphu"
-    ],
+    "options": ["Dhaka", "Kathmandu", "Punakha", "Thimphu"],
     "correctAnswer": 3
   },
   {
     "question": "Capital of Thailand",
-    "options": [
-      "Bangkok",
-      "Pattaya",
-      "Phuket",
-      "Ko Samui"
-    ],
+    "options": ["Bangkok", "Pattaya", "Phuket", "Ko Samui"],
     "correctAnswer": 0
   },
   {
     "question": "Capital of Turkmenistan",
-    "options": [
-      "Ahal",
-      "Ashgabat",
-      "Balkan",
-      "Mary"
-    ],
+    "options": ["Ahal", "Ashgabat", "Balkan", "Mary"],
     "correctAnswer": 1
   }
 ]

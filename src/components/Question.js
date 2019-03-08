@@ -5,7 +5,7 @@ export default class Question extends Component {
     let { data, selectedQues, selectAns } = this.props;
     return (
       <div style={{ border: '1px solid black' }} key={selectedQues}>
-        <p>{data.question}</p>
+        <p><span>Q {selectedQues + 1}. </span><span>{data.question}</span></p>
         {data.options.map((a, i) => <p><input
           type="radio"
           name="ans"
