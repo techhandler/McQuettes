@@ -1,0 +1,42 @@
+[
+  {
+    "question": "i am here1",
+    "options": [
+      "in a",
+      "in b",
+      "in c1",
+      "in d"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "i am here for second question",
+    "options": [
+      "in a2",
+      "in b2",
+      "in c2",
+      "in d"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "i am here3",
+    "options": [
+      "in a",
+      "in b3",
+      "in c3",
+      "in d3"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "i am here for forth question",
+    "options": [
+      "in a",
+      "in b4",
+      "in c",
+      "in d"
+    ],
+    "correctAnswer": 1
+  }
+]
