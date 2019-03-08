@@ -1,41 +1,41 @@
 [
   {
-    "question": "i am here1",
+    "question": "Capital Of India",
     "options": [
-      "in a",
-      "in b",
-      "in c1",
-      "in d"
+      "Mumbai",
+      "Kolkata",
+      "Delhi",
+      "Chennai"
     ],
     "correctAnswer": 2
   },
   {
-    "question": "i am here for second question",
+    "question": "Capital Of Bhutan",
     "options": [
-      "in a2",
-      "in b2",
-      "in c2",
-      "in d"
+      "Dhaka",
+      "Kathmandu",
+      "Punakha",
+      "Thimphu"
     ],
     "correctAnswer": 3
   },
   {
-    "question": "i am here3",
+    "question": "Capital of Thailand",
     "options": [
-      "in a",
-      "in b3",
-      "in c3",
-      "in d3"
+      "Bangkok",
+      "Pattaya",
+      "Phuket",
+      "Ko Samui"
     ],
     "correctAnswer": 0
   },
   {
-    "question": "i am here for forth question",
+    "question": "Capital of Turkmenistan",
     "options": [
-      "in a",
-      "in b4",
-      "in c",
-      "in d"
+      "Ahal",
+      "Ashgabat",
+      "Balkan",
+      "Mary"
     ],
     "correctAnswer": 1
   }
