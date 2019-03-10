@@ -11,8 +11,20 @@ button {
     width: 40%;
     padding: .8em;
     outline: none;
+    cursor: pointer;
 }
 
 button:hover {
     box-shadow: 0 0 5px 0 #000;
+}
+
+.options-label{
+    background:#eee;
+    padding:1%;
+    cursor:pointer
+}
+
+.options-label:hover{
+    background:#888;
+    color:white;
 }
