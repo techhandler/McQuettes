@@ -47,7 +47,7 @@ class App extends Component {
                 >
                   Back
                 </button>) ||
-                <button style={{ background: "grey" }}>Back</button>}
+                <button className="disabled-btn" >Back</button>}
                 {(this.state.selectedQues < this.state.question.length - 1 &&
                 <button
                   onClick={() => this.setState({ selectedQues: this.state.selectedQues + 1 })}
@@ -55,8 +55,7 @@ class App extends Component {
                 >
                   Next
                 </button>) ||
-                <button style={{ float: "right", background: "green" }} onClick={() => this.handleSubmit()}>
-                  Submit</button>}
+                <button style={{ float: "right" }} className="disabled-btn" >Next</button>}
               </div>
             </div>
           </div>
