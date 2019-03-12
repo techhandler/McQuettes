@@ -5,7 +5,7 @@ export default class QuestionPanel extends Component {
     let { data } = this.props;
     return (
       <div style={{ flex: 3, display: "flex", flexDirection: "column" }}>
-        <div className="ques-panel" style={{ flex: 1 }}>
+        <div style={{ flex: 1 }}>
           {data &&
           data.map((a, i) => (
             <span

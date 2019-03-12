@@ -18,5 +18,10 @@
     "question": "Capital of Turkmenistan",
     "options": ["Ahal", "Ashgabat", "Balkan", "Mary"],
     "correctAnswer": 1
+  },
+  {
+    "question": "Capital of Maharashtra",
+    "options": ["Indore", "Mumbai", "Bhopal", "Chennai"],
+    "correctAnswer": 1
   }
 ]

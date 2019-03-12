@@ -47,16 +47,10 @@ button:hover {
     text-align: center;
     font-size: 1.2em;
     height: 1.1em;
-    flex: 1;
+    float: left;
+    width: 20px;
 }
 
 .ques-panel-button:hover {
     background: #ddd;
-}
-
-.ques-panel {
-    border: 1px solid black;
-    flex: 3;
-    display: flex;
-    flex-wrap: wrap;
 }

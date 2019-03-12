@@ -6,7 +6,7 @@ export default class Question extends Component {
     return (
       <div style={{ border: '1px solid black', padding:"5%" }} key={selectedQues}>
         <p><span>Q{selectedQues + 1}. </span><span>{data.question}</span></p>
-        {data.options.map((a, i) => <p className="options-label" onClick={() => {
+        {data.options.map((a, i) => <p className="options-label" key={i} onClick={() => {
           selectAns({ selectedQues, selectedAns: i })
         }}><input
           type="radio"
