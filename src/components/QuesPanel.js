@@ -19,17 +19,17 @@ export default class QuestionPanel extends Component {
           ))}
         </div>
         <div style={{ flex: 1 }}>
-          <p style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center" }}>
             <button style={{ background: "green", width: "60%" }} onClick={() => this.props.handleSubmit()}>
               Submit
             </button>
-          </p>
-          <p>
+          </div>
+          <div style={{width:"100%", lineHeight:"3em"}}>
             <span className="ques-panel-button" style={style.attempted}/> - Attempted
-          </p>
-          <p>
+          </div>
+          <div style={{width:"100%"}}>
             <span className="ques-panel-button"/> - Not Attempted
-          </p>
+          </div>
         </div>
       </div>
     );
