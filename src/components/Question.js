@@ -4,7 +4,7 @@ export default class Question extends Component {
   render() {
     let { data, selectedQues, selectAns } = this.props;
     return (
-      <div style={{ border: '1px solid black', padding:"5%" }} key={selectedQues}>
+      <div className="question-tab"  key={selectedQues}>
         <p><span>Q{selectedQues + 1}. </span><span>{data.question}</span></p>
         {data.options.map((a, i) => <p className="options-label" key={i} onClick={() => {
           selectAns({ selectedQues, selectedAns: i })

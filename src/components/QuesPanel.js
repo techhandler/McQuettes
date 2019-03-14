@@ -6,6 +6,7 @@ export default class QuestionPanel extends Component {
     return (
       <div style={{ flex: 3, display: "flex", flexDirection: "column" }}>
         <div style={{ flex: 1 }}>
+          <p>Panel</p>
           {data &&
           data.map((a, i) => (
             <span
@@ -25,10 +26,10 @@ export default class QuestionPanel extends Component {
             </button>
           </div>
           <div style={{width:"100%", lineHeight:"3em"}}>
-            <span className="ques-panel-button" style={style.attempted}/> - Attempted
+            <span className="ques-panel-span" style={style.attempted}/> - Attempted
           </div>
           <div style={{width:"100%"}}>
-            <span className="ques-panel-button"/> - Not Attempted
+            <span className="ques-panel-span"/> - Not Attempted
           </div>
         </div>
       </div>
