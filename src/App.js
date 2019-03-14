@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   handleSubmit() {
-    console.log("Submitted");
+    this.props.history.push('/submission', question);
   }
 
   handlePanelClick(selectedQues) {
@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   render() {
-    // console.log("sss", this.state.question);
+    console.log("sss", this.props);
     return (
       <div className="App">
         <div style={{ width: "90%", margin: "auto" }}>

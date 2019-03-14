@@ -2,9 +2,9 @@
     user-select: none;
 }
 
-.question-tab{
+.question-tab {
     border: 1px solid black;
-    padding:5%;
+    padding: 5%;
     box-shadow: 0 0 0 0 black;
 }
 
@@ -55,6 +55,7 @@ button:hover {
     float: left;
     width: 20px;
 }
+
 .ques-panel-button {
     cursor: pointer;
     padding: .4em;
@@ -69,4 +70,36 @@ button:hover {
 
 .ques-panel-button:hover {
     background: #ddd;
+}
+
+.submission-block {
+    background-color: #ddd;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.submission-block > div {
+    width: 30%;
+    text-align: center;
+    background: #fff;
+    height: 35%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    min-height: 135px;
+    overflow-y: auto;
+}
+
+.submission-block > div > div {
+    width: 74%;
+    margin: 8% auto;
+    text-align: left;
+    border: 1px solid #999;
+    padding: 0 3%;
+    background: #ddd;
+}
+
+.submission-block > div > div div {
+    margin: 2% auto;
 }
